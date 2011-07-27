@@ -35,5 +35,28 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
+  <template name="sf2class" value="namespace $var1$;&#10;&#10;use $var2$;&#10;&#10;class $var3$ extends $var4$&#10;{&#10;    public function $var5$($var6$, $var7$)&#10;    {&#10;        $var8$&#10;    }&#10;&#10;}" description="sf2class" toReformat="false" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var5" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var6" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var7" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var8" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="true" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
 </templateSet>
 
